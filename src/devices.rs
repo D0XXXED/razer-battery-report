@@ -73,9 +73,6 @@ pub const RAZER_VIPER_V3_PRO_WIRED: DeviceInfo =
 pub const RAZER_VIPER_V3_PRO_WIRELESS: DeviceInfo =
     DeviceInfo::new("Razer Viper V3 Pro (Wireless)", 0x00C1, 0, 1, 2);
 
-#define USB_DEVICE_ID_RAZER_VIPER_V3_PRO_WIRED 0x00C0
-#define USB_DEVICE_ID_RAZER_VIPER_V3_PRO_WIRELESS 0x00C1
-
 pub const RAZER_DEVICE_LIST: [DeviceInfo; 10] = [
     RAZER_DEATHADDER_V3_PRO_WIRED,
     RAZER_DEATHADDER_V3_PRO_WIRELESS,
